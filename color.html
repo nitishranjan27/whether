@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .button{
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .bg{
+        background-color: pink;
+    }
+</style>
+<body>
+        <div>
+        <button type="button" style="padding: 6px;" onclick="increase()">+</button>
+        <p id = "countIncreaseDecrease" style="padding: 5px;">0</p>
+        <button type="button" style="padding: 7.6px;" onclick="decrease()">-</button>
+        </div>
+        <button id="clickButton" class="button" type="button">Click!!</button>
+
+        <script src="./main.js"></script>
+</body>
+</html>
